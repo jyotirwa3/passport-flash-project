@@ -57,6 +57,6 @@ app.use((req, res, next) => {
 app.use('/', require('./routes/index.js'));
 app.use('/users', require('./routes/users.js'));
 
-const PORT = process.env.PORT || 5500;
+const PORT = 5500;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
