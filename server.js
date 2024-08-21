@@ -8,7 +8,7 @@ const flash = require('connect-flash');
 const app = express();
 
 // Passport Config
-require('./config/passport')(passport);
+require('./config/passport.js')(passport);
 
 // DB Config
 const db = 'mongodb://localhost:27017/passport-local';
